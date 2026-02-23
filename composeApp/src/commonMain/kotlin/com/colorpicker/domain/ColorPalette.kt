@@ -28,5 +28,7 @@ val predefinedPalette: List<PaletteColor> = listOf(
     // Greys
     "#fafafa", "#bdbdbd", "#757575", "#424242",
     // Blue Greys
-    "#cfd8dc", "#b0bec5", "#607d8b", "#37474f"
+    "#cfd8dc", "#b0bec5", "#607d8b", "#37474f",
+    // User settings old styles
+    "#ea5911", "#467e4a", "#276696", "#b40303"
 ).map { PaletteColor.fromHex(it) }
