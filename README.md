@@ -2,6 +2,10 @@
 
 A **Kotlin Multiplatform** (Compose Multiplatform) color picker app that lets you select any color and instantly finds the **closest match** from a predefined palette.
 
+<p align="center">
+  <img src="screenshots/colorPickerApp.png" alt="Color Picker App" width="320"/>
+</p>
+
 ## How It Works
 
 1. **Pick a color** using the HSV color panel (hue + saturation) and brightness slider
