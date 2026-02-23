@@ -48,7 +48,10 @@ private fun ColorPickerScreen() {
 
     val (r, g, b) = hsvToRgb(hue, saturation, value)
     val selectedColor = Color(r, g, b)
-    val hexString = "#%02x%02x%02x".format(r, g, b)
+    val hexString = "#" +
+        r.toString(16).padStart(2, '0') +
+        g.toString(16).padStart(2, '0') +
+        b.toString(16).padStart(2, '0')
 
     val closestColor = remember(r, g, b) {
         ColorMatcher.findClosest(r, g, b, predefinedPalette)

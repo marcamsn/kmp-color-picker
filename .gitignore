@@ -11,3 +11,4 @@
 *.xcodeproj/xcuserdata/
 /composeApp/build
 /iosApp/build
+/builds
